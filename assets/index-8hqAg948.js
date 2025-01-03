@@ -486,4 +486,4 @@ Please change the parent <Route path="${I}"> to <Route path="${I==="/"?"*":`${I}
     body {
         background-color: #000000;
     }
-`;vv.createRoot(document.getElementById("root")).render(j.jsxs(O.StrictMode,{children:[j.jsx(z0,{children:j.jsx(Vx,{})}),j.jsx(Hx,{})]}));
+`;vv.createRoot(document.getElementById("root")).render(j.jsxs(O.StrictMode,{children:[j.jsx(z0,{basename:"/react-dev-filmes",children:j.jsx(Vx,{})}),j.jsx(Hx,{})]}));
