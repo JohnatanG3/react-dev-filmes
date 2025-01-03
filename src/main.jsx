@@ -6,7 +6,7 @@ import GlobalStyle from './styles/GlobalStyles.js'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/react-dev-filmes">
       <Router />
     </BrowserRouter>
     <GlobalStyle />
